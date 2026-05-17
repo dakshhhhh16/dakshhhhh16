@@ -13,7 +13,7 @@ I enjoy building reliable systems, contributing to developer-facing tools, and l
 ## 🚀 Currently Working On
 
 - Google Summer of Code 2026 with University of Alaska
-- Actively contributing through LFX under OpenSSF as well as CNCF
+- Actively contributing in LFX under OpenSSF as well as CNCF
 - Exploring Go, Kubernetes, policy engines, and backend infrastructure
 - Building practical AI and developer tooling projects
 
