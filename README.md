@@ -1,18 +1,11 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&duration=2600&pause=1200&color=FFFFFF&center=true&vCenter=true&width=980&height=80&lines=Hi+there!+I'm+Daksh+Pathak;GSoC+2026+Mentee;Open+Source+Contributor;Cloud+Native+%7C+Backend+Developer;Machine+Learning+Enthusiast" alt="Typing SVG" />
 </p>
-## 🚀 Currently Working On
+## About Me
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
 Currently selected as a Google Summer of Code 2026 mentee with the University of Alaska, working on the TENeT project.  
 I enjoy building reliable systems, contributing to developer-facing tools, and learning through practical engineering work.
-
-## 🚀 Currently Working On
-
-- Google Summer of Code 2026 with University of Alaska
-- Actively contributing in LFX under OpenSSF as well as CNCF
-- Exploring Go, Kubernetes, policy engines, and backend infrastructure
-- Building practical AI and developer tooling projects
 
 ## 🛠️ Tech Stack
 
@@ -62,29 +55,18 @@ I enjoy building reliable systems, contributing to developer-facing tools, and l
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-## 🌍 Open Source
+## 📫 Connect With Me
 
-I actively contribute to open-source projects, especially in the cloud-native ecosystem.
+---
 
-- GSoC 2026 Mentee at University of Alaska
-- Currently serving as a member of the MinderSec organization under OpenSSF and reviewing essential pull requests
-- Active contributions to CNCF projects including Kyverno, Kubescape, OpenTelemetry, and KubeStellar
-- Experience with Kubernetes, policy engines, testing, and developer tooling
-- Interested in maintainability, clean code, and production-grade systems
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/dakshhhhh16">
-    <img src="https://img.shields.io/badge/GITHUB-9B51E0?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub" />
-  </a>
+<p>
   <a href="https://www.linkedin.com/in/daksh-pathak-1855811b1/">
-    <img src="https://img.shields.io/badge/LINKEDIN-9B51E0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://x.com/dakshhhhh16">
-    <img src="https://img.shields.io/badge/X-9B51E0?style=for-the-badge&logo=x&logoColor=white&labelColor=111827" alt="X" />
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
   <a href="mailto:pathakdaksh1601@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-9B51E0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-D94A38?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
