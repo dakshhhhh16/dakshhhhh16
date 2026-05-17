@@ -1,12 +1,6 @@
-# Hi, I'm Daksh Pathak 👋
+# Hi, I'm Daksh Pathak 👾
 
-[![GSoC 2026](https://img.shields.io/badge/GSoC%202026-Mentee-ff6f00?style=for-the-badge&logo=google&logoColor=white)](https://summerofcode.withgoogle.com/)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-2ea44f?style=for-the-badge&logo=github&logoColor=white)
-![Cloud Native](https://img.shields.io/badge/Focus-Cloud%20Native-0f766e?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Backend](https://img.shields.io/badge/Interest-Backend%20Systems-1f6feb?style=for-the-badge)
-![Applied AI](https://img.shields.io/badge/Building-Applied%20AI-7c3aed?style=for-the-badge)
-
-I'm a software developer, open-source contributor, and machine learning enthusiast interested in backend systems, DevOps, and applied AI.  
+I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
 Currently selected as a Google Summer of Code 2026 mentee with the University of Alaska, working on the TENeT project.  
 I enjoy building reliable systems, contributing to developer-facing tools, and learning through practical engineering work.
 
