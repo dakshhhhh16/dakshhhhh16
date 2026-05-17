@@ -5,8 +5,6 @@
 ## About Me
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
-Currently selected as a Google Summer of Code 2026 mentee with the University of Alaska, working on the TENeT project.  
-I enjoy building reliable systems, contributing to developer-facing tools, and learning through practical engineering work.
 
 ## 🛠️ Tech Stack
 
