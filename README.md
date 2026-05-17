@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=40&duration=3000&pause=900&color=FF7A59&center=true&vCenter=true&width=900&height=80&lines=Hi+there!+I'm+Daksh+Pathak;GSoC+2026+Mentee;Open+Source+Contributor;Cloud+Native+%26+Backend+Developer" alt="Typing SVG" />
+</p>
+
 # Hi, I'm Daksh Pathak 👾
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
@@ -71,6 +75,17 @@ I actively contribute to open-source projects, especially in the cloud-native ec
 
 ## 🤝 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daksh%20Pathak-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daksh-pathak-1855811b1/)
-[![X](https://img.shields.io/badge/X-@dakshhhhh16-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/dakshhhhh16)
-[![Gmail](https://img.shields.io/badge/Gmail-pathakdaksh1601%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pathakdaksh1601@gmail.com)
+<p align="center">
+  <a href="https://github.com/dakshhhhh16">
+    <img src="https://img.shields.io/badge/GITHUB-9B51E0?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/daksh-pathak-1855811b1/">
+    <img src="https://img.shields.io/badge/LINKEDIN-9B51E0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/dakshhhhh16">
+    <img src="https://img.shields.io/badge/X-9B51E0?style=for-the-badge&logo=x&logoColor=white&labelColor=111827" alt="X" />
+  </a>
+  <a href="mailto:pathakdaksh1601@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-9B51E0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
+  </a>
+</p>
