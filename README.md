@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&duration=2600&pause=1200&color=FFFFFF&center=true&vCenter=true&width=980&height=80&lines=Hi+there!+I'm+Daksh+Pathak;GSoC+2026+Mentee;Open+Source+Contributor;Cloud+Native+%7C+Backend+Developer;Machine+Learning+Enthusiast" alt="Typing SVG" />
 </p>
-## About Me
+## 🚀 Currently Working On
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
 Currently selected as a Google Summer of Code 2026 mentee with the University of Alaska, working on the TENeT project.  
