@@ -10,8 +10,6 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <!-- GITHUB-STATS:START -->
 <p align="left">
-  <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
-  <br>
   <sub>Open source contribution snapshot, refreshed daily.</sub>
 </p>
 
