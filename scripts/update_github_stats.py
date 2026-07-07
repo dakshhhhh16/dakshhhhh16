@@ -60,7 +60,6 @@ def collect_stats(username: str) -> dict[str, int]:
         "public_gists": int(user["public_gists"]),
         "open_prs": search_count(f"author:{username} is:pr is:open"),
         "merged_prs": search_count(f"author:{username} is:pr is:merged"),
-        "closed_prs": search_count(f"author:{username} is:pr is:closed is:unmerged"),
         "open_issues": search_count(f"author:{username} is:issue is:open"),
         "closed_issues": search_count(f"author:{username} is:issue is:closed"),
     }
@@ -86,24 +85,23 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 
     overview = "\n".join(
         [
-            metric_cell("Followers", stats["followers"], 180),
-            metric_cell("Public Repos", stats["public_repos"], 180),
-            metric_cell("Following", stats["following"], 180),
-            metric_cell("Public Gists", stats["public_gists"], 180),
+            metric_cell("👥 Followers", stats["followers"], 180),
+            metric_cell("📦 Public Repos", stats["public_repos"], 180),
+            metric_cell("🔗 Following", stats["following"], 180),
+            metric_cell("📝 Public Gists", stats["public_gists"], 180),
         ]
     )
-    contribution_row_one = "\n".join(
+    pull_request_row = "\n".join(
         [
-            metric_cell("Open PRs", stats["open_prs"], 240),
-            metric_cell("Merged PRs", stats["merged_prs"], 240),
-            metric_cell("Closed PRs", stats["closed_prs"], 240),
+            metric_cell("🟢 Open PRs", stats["open_prs"], 300),
+            metric_cell("✅ Merged PRs", stats["merged_prs"], 300),
         ]
     )
-    contribution_row_two = "\n".join(
+    issue_row = "\n".join(
         [
-            metric_cell("Open Issues", stats["open_issues"], 240),
-            metric_cell("Closed Issues", stats["closed_issues"], 240),
-            metric_cell("Total Issues", total_issues, 240),
+            metric_cell("🟡 Open Issues", stats["open_issues"], 240),
+            metric_cell("✅ Closed Issues", stats["closed_issues"], 240),
+            metric_cell("📌 Total Issues", total_issues, 240),
         ]
     )
 
@@ -121,10 +119,13 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 
 <table align="center">
   <tr>
-{contribution_row_one}
+{pull_request_row}
   </tr>
+</table>
+
+<table align="center">
   <tr>
-{contribution_row_two}
+{issue_row}
   </tr>
 </table>
 
