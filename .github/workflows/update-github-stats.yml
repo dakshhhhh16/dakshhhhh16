@@ -7,10 +7,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - README.md
-      - scripts/update_github_stats.py
-      - .github/workflows/update-github-stats.yml
 
 permissions:
   contents: write
