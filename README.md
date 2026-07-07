@@ -10,22 +10,16 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <!-- GITHUB-STATS:START -->
 <p align="left">
+  <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
+  <br>
   <sub>Open source contribution snapshot, refreshed daily.</sub>
 </p>
 
 <table align="center">
   <tr>
-    <td align="center" width="150"><strong>7</strong><br><sub>👥 Followers</sub></td>
-    <td align="center" width="150"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
-    <td align="center" width="150"><strong>7</strong><br><sub>🔗 Following</sub></td>
-    <td align="center" width="150"><strong>0</strong><br><sub>📝 Public Gists</sub></td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td align="center" width="300"><strong>2</strong><br><sub>🟢 Open PRs</sub></td>
-    <td align="center" width="300"><strong>152</strong><br><sub>✅ Merged PRs</sub></td>
+    <td align="center" width="200"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
+    <td align="center" width="200"><strong>2</strong><br><sub>🟢 Open PRs</sub></td>
+    <td align="center" width="200"><strong>152</strong><br><sub>✅ Merged PRs</sub></td>
   </tr>
 </table>
 

@@ -54,10 +54,7 @@ def collect_stats(username: str) -> dict[str, int]:
     user = request_json(f"/users/{urllib.parse.quote(username)}")
 
     return {
-        "followers": int(user["followers"]),
         "public_repos": int(user["public_repos"]),
-        "following": int(user["following"]),
-        "public_gists": int(user["public_gists"]),
         "open_prs": search_count(f"author:{username} is:pr is:open"),
         "merged_prs": search_count(f"author:{username} is:pr is:merged"),
         "open_issues": search_count(f"author:{username} is:issue is:open"),
@@ -83,18 +80,11 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
     profile_url = f"https://github.com/{urllib.parse.quote(username)}"
     username_html = html.escape(username)
 
-    overview = "\n".join(
+    contribution_row = "\n".join(
         [
-            metric_cell("👥 Followers", stats["followers"], 150),
-            metric_cell("📦 Public Repos", stats["public_repos"], 150),
-            metric_cell("🔗 Following", stats["following"], 150),
-            metric_cell("📝 Public Gists", stats["public_gists"], 150),
-        ]
-    )
-    pull_request_row = "\n".join(
-        [
-            metric_cell("🟢 Open PRs", stats["open_prs"], 300),
-            metric_cell("✅ Merged PRs", stats["merged_prs"], 300),
+            metric_cell("📦 Public Repos", stats["public_repos"], 200),
+            metric_cell("🟢 Open PRs", stats["open_prs"], 200),
+            metric_cell("✅ Merged PRs", stats["merged_prs"], 200),
         ]
     )
     issue_row = "\n".join(
@@ -113,13 +103,7 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 
 <table align="center">
   <tr>
-{overview}
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-{pull_request_row}
+{contribution_row}
   </tr>
 </table>
 
