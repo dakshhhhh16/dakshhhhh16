@@ -70,13 +70,12 @@ def format_count(value: int) -> str:
     return f"{value:,}"
 
 
-def metric_cell(label: str, note: str, value: int, width: int) -> str:
+def metric_cell(label: str, value: int, width: int) -> str:
     label = html.escape(label)
-    note = html.escape(note)
     value_text = html.escape(format_count(value))
     return (
-        f'    <td width="{width}%"><strong>{label}</strong><br>'
-        f"<sub>{note}</sub><br><br><strong>{value_text}</strong></td>"
+        f'    <td align="center" width="{width}"><strong>{value_text}</strong><br>'
+        f"<sub>{label}</sub></td>"
     )
 
 
@@ -87,38 +86,40 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 
     overview = "\n".join(
         [
-            metric_cell("Followers", "GitHub network", stats["followers"], 25),
-            metric_cell("Public Repos", "Owned repositories", stats["public_repos"], 25),
-            metric_cell("Following", "Developer graph", stats["following"], 25),
-            metric_cell("Public Gists", "Shared snippets", stats["public_gists"], 25),
+            metric_cell("Followers", stats["followers"], 180),
+            metric_cell("Public Repos", stats["public_repos"], 180),
+            metric_cell("Following", stats["following"], 180),
+            metric_cell("Public Gists", stats["public_gists"], 180),
         ]
     )
     contribution_row_one = "\n".join(
         [
-            metric_cell("Open PRs", "Currently active", stats["open_prs"], 33),
-            metric_cell("Merged PRs", "Accepted contributions", stats["merged_prs"], 33),
-            metric_cell("Closed PRs", "Closed without merge", stats["closed_prs"], 33),
+            metric_cell("Open PRs", stats["open_prs"], 240),
+            metric_cell("Merged PRs", stats["merged_prs"], 240),
+            metric_cell("Closed PRs", stats["closed_prs"], 240),
         ]
     )
     contribution_row_two = "\n".join(
         [
-            metric_cell("Open Issues", "Active discussions", stats["open_issues"], 33),
-            metric_cell("Closed Issues", "Resolved discussions", stats["closed_issues"], 33),
-            metric_cell("Total Issues", "Issue participation", total_issues, 33),
+            metric_cell("Open Issues", stats["open_issues"], 240),
+            metric_cell("Closed Issues", stats["closed_issues"], 240),
+            metric_cell("Total Issues", total_issues, 240),
         ]
     )
 
     return f"""<p align="center">
   <a href="{profile_url}"><strong>@{username_html}</strong></a>
+  <br>
+  <sub>Open source contribution snapshot, refreshed daily.</sub>
 </p>
 
-<table>
+<table align="center">
   <tr>
 {overview}
   </tr>
 </table>
 
-<table>
+<table align="center">
   <tr>
 {contribution_row_one}
   </tr>
@@ -128,7 +129,7 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 </table>
 
 <p align="center">
-  <sub>Auto-updated daily from GitHub activity; private repository names are not displayed.</sub>
+  <sub>Private repository names are not displayed.</sub>
 </p>"""
 
 

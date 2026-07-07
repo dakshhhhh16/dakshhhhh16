@@ -6,37 +6,39 @@
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
 
-## GitHub Activity
+<h2 align="center">GitHub Activity</h2>
 
 <!-- GITHUB-STATS:START -->
 <p align="center">
   <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
+  <br>
+  <sub>Open source contribution snapshot, refreshed daily.</sub>
 </p>
 
-<table>
+<table align="center">
   <tr>
-    <td width="25%"><strong>Followers</strong><br><sub>GitHub network</sub><br><br><strong>7</strong></td>
-    <td width="25%"><strong>Public Repos</strong><br><sub>Owned repositories</sub><br><br><strong>26</strong></td>
-    <td width="25%"><strong>Following</strong><br><sub>Developer graph</sub><br><br><strong>7</strong></td>
-    <td width="25%"><strong>Public Gists</strong><br><sub>Shared snippets</sub><br><br><strong>0</strong></td>
+    <td align="center" width="180"><strong>7</strong><br><sub>Followers</sub></td>
+    <td align="center" width="180"><strong>26</strong><br><sub>Public Repos</sub></td>
+    <td align="center" width="180"><strong>7</strong><br><sub>Following</sub></td>
+    <td align="center" width="180"><strong>0</strong><br><sub>Public Gists</sub></td>
   </tr>
 </table>
 
-<table>
+<table align="center">
   <tr>
-    <td width="33%"><strong>Open PRs</strong><br><sub>Currently active</sub><br><br><strong>2</strong></td>
-    <td width="33%"><strong>Merged PRs</strong><br><sub>Accepted contributions</sub><br><br><strong>152</strong></td>
-    <td width="33%"><strong>Closed PRs</strong><br><sub>Closed without merge</sub><br><br><strong>59</strong></td>
+    <td align="center" width="240"><strong>2</strong><br><sub>Open PRs</sub></td>
+    <td align="center" width="240"><strong>152</strong><br><sub>Merged PRs</sub></td>
+    <td align="center" width="240"><strong>59</strong><br><sub>Closed PRs</sub></td>
   </tr>
   <tr>
-    <td width="33%"><strong>Open Issues</strong><br><sub>Active discussions</sub><br><br><strong>3</strong></td>
-    <td width="33%"><strong>Closed Issues</strong><br><sub>Resolved discussions</sub><br><br><strong>11</strong></td>
-    <td width="33%"><strong>Total Issues</strong><br><sub>Issue participation</sub><br><br><strong>14</strong></td>
+    <td align="center" width="240"><strong>3</strong><br><sub>Open Issues</sub></td>
+    <td align="center" width="240"><strong>11</strong><br><sub>Closed Issues</sub></td>
+    <td align="center" width="240"><strong>14</strong><br><sub>Total Issues</sub></td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Auto-updated daily from GitHub activity; private repository names are not displayed.</sub>
+  <sub>Private repository names are not displayed.</sub>
 </p>
 <!-- GITHUB-STATS:END -->
 
