@@ -85,10 +85,10 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
 
     overview = "\n".join(
         [
-            metric_cell("👥 Followers", stats["followers"], 180),
-            metric_cell("📦 Public Repos", stats["public_repos"], 180),
-            metric_cell("🔗 Following", stats["following"], 180),
-            metric_cell("📝 Public Gists", stats["public_gists"], 180),
+            metric_cell("👥 Followers", stats["followers"], 150),
+            metric_cell("📦 Public Repos", stats["public_repos"], 150),
+            metric_cell("🔗 Following", stats["following"], 150),
+            metric_cell("📝 Public Gists", stats["public_gists"], 150),
         ]
     )
     pull_request_row = "\n".join(
@@ -99,9 +99,9 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
     )
     issue_row = "\n".join(
         [
-            metric_cell("🟡 Open Issues", stats["open_issues"], 240),
-            metric_cell("✅ Closed Issues", stats["closed_issues"], 240),
-            metric_cell("📌 Total Issues", total_issues, 240),
+            metric_cell("🟡 Open Issues", stats["open_issues"], 200),
+            metric_cell("✅ Closed Issues", stats["closed_issues"], 200),
+            metric_cell("📌 Total Issues", total_issues, 200),
         ]
     )
 

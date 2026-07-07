@@ -17,10 +17,10 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <table align="center">
   <tr>
-    <td align="center" width="180"><strong>7</strong><br><sub>👥 Followers</sub></td>
-    <td align="center" width="180"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
-    <td align="center" width="180"><strong>7</strong><br><sub>🔗 Following</sub></td>
-    <td align="center" width="180"><strong>0</strong><br><sub>📝 Public Gists</sub></td>
+    <td align="center" width="150"><strong>7</strong><br><sub>👥 Followers</sub></td>
+    <td align="center" width="150"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
+    <td align="center" width="150"><strong>7</strong><br><sub>🔗 Following</sub></td>
+    <td align="center" width="150"><strong>0</strong><br><sub>📝 Public Gists</sub></td>
   </tr>
 </table>
 
@@ -33,9 +33,9 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <table align="center">
   <tr>
-    <td align="center" width="240"><strong>3</strong><br><sub>🟡 Open Issues</sub></td>
-    <td align="center" width="240"><strong>11</strong><br><sub>✅ Closed Issues</sub></td>
-    <td align="center" width="240"><strong>14</strong><br><sub>📌 Total Issues</sub></td>
+    <td align="center" width="200"><strong>3</strong><br><sub>🟡 Open Issues</sub></td>
+    <td align="center" width="200"><strong>11</strong><br><sub>✅ Closed Issues</sub></td>
+    <td align="center" width="200"><strong>14</strong><br><sub>📌 Total Issues</sub></td>
   </tr>
 </table>
 
