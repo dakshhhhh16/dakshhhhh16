@@ -15,23 +15,23 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <table>
   <tr>
-    <td width="25%"><strong>Followers</strong><br><sub>GitHub network</sub><br><br><strong>--</strong></td>
-    <td width="25%"><strong>Public Repos</strong><br><sub>Owned repositories</sub><br><br><strong>--</strong></td>
-    <td width="25%"><strong>Following</strong><br><sub>Developer graph</sub><br><br><strong>--</strong></td>
-    <td width="25%"><strong>Public Gists</strong><br><sub>Shared snippets</sub><br><br><strong>--</strong></td>
+    <td width="25%"><strong>Followers</strong><br><sub>GitHub network</sub><br><br><strong>7</strong></td>
+    <td width="25%"><strong>Public Repos</strong><br><sub>Owned repositories</sub><br><br><strong>26</strong></td>
+    <td width="25%"><strong>Following</strong><br><sub>Developer graph</sub><br><br><strong>7</strong></td>
+    <td width="25%"><strong>Public Gists</strong><br><sub>Shared snippets</sub><br><br><strong>0</strong></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="33%"><strong>Open PRs</strong><br><sub>Currently active</sub><br><br><strong>--</strong></td>
-    <td width="33%"><strong>Merged PRs</strong><br><sub>Accepted contributions</sub><br><br><strong>--</strong></td>
-    <td width="33%"><strong>Closed PRs</strong><br><sub>Closed without merge</sub><br><br><strong>--</strong></td>
+    <td width="33%"><strong>Open PRs</strong><br><sub>Currently active</sub><br><br><strong>2</strong></td>
+    <td width="33%"><strong>Merged PRs</strong><br><sub>Accepted contributions</sub><br><br><strong>152</strong></td>
+    <td width="33%"><strong>Closed PRs</strong><br><sub>Closed without merge</sub><br><br><strong>59</strong></td>
   </tr>
   <tr>
-    <td width="33%"><strong>Open Issues</strong><br><sub>Active discussions</sub><br><br><strong>--</strong></td>
-    <td width="33%"><strong>Closed Issues</strong><br><sub>Resolved discussions</sub><br><br><strong>--</strong></td>
-    <td width="33%"><strong>Total Issues</strong><br><sub>Issue participation</sub><br><br><strong>--</strong></td>
+    <td width="33%"><strong>Open Issues</strong><br><sub>Active discussions</sub><br><br><strong>3</strong></td>
+    <td width="33%"><strong>Closed Issues</strong><br><sub>Resolved discussions</sub><br><br><strong>11</strong></td>
+    <td width="33%"><strong>Total Issues</strong><br><sub>Issue participation</sub><br><br><strong>14</strong></td>
   </tr>
 </table>
 
