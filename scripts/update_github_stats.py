@@ -105,7 +105,7 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
         ]
     )
 
-    return f"""<p align="center">
+    return f"""<p align="left">
   <a href="{profile_url}"><strong>@{username_html}</strong></a>
   <br>
   <sub>Open source contribution snapshot, refreshed daily.</sub>

@@ -6,10 +6,10 @@
 
 I'm a software developer, machine learning enthusiast and an active open source developer interested in backend systems, DevOps, and applied AI.  
 
-<h2 align="center">GitHub Activity</h2>
+<h2 align="left">GitHub Activity</h2>
 
 <!-- GITHUB-STATS:START -->
-<p align="center">
+<p align="left">
   <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
   <br>
   <sub>Open source contribution snapshot, refreshed daily.</sub>
