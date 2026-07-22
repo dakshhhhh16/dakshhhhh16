@@ -10,6 +10,8 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <!-- GITHUB-STATS:START -->
 <p align="left">
+  <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
+  <br>
   <sub>Open source contribution snapshot, refreshed daily.</sub>
 </p>
 
@@ -17,15 +19,15 @@ I'm a software developer, machine learning enthusiast and an active open source 
   <tr>
     <td align="center" width="200"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
     <td align="center" width="200"><strong>2</strong><br><sub>🟢 Open PRs</sub></td>
-    <td align="center" width="200"><strong>152</strong><br><sub>✅ Merged PRs</sub></td>
+    <td align="center" width="200"><strong>160</strong><br><sub>✅ Merged PRs</sub></td>
   </tr>
 </table>
 
 <table align="center">
   <tr>
-    <td align="center" width="200"><strong>3</strong><br><sub>🟡 Open Issues</sub></td>
-    <td align="center" width="200"><strong>11</strong><br><sub>✅ Closed Issues</sub></td>
-    <td align="center" width="200"><strong>14</strong><br><sub>📌 Total Issues</sub></td>
+    <td align="center" width="200"><strong>4</strong><br><sub>🟡 Open Issues</sub></td>
+    <td align="center" width="200"><strong>13</strong><br><sub>✅ Closed Issues</sub></td>
+    <td align="center" width="200"><strong>17</strong><br><sub>📌 Total Issues</sub></td>
   </tr>
 </table>
 
