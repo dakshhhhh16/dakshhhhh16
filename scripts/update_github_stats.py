@@ -5,6 +5,7 @@ import html
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -18,7 +19,9 @@ END_MARKER = "<!-- GITHUB-STATS:END -->"
 USERNAME = os.environ.get("GITHUB_USERNAME", "dakshhhhh16")
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
 API_ROOT = os.environ.get("GITHUB_API_URL", "https://api.github.com").rstrip("/")
-TOKEN = os.environ.get("GH_STATS_TOKEN") or os.environ.get("GITHUB_TOKEN")
+TOKEN = os.environ.get("GH_STATS_TOKEN")
+MAX_ATTEMPTS = 3
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
 
 
 def request_json(path: str, params: dict[str, str] | None = None) -> dict[str, Any]:
@@ -35,12 +38,28 @@ def request_json(path: str, params: dict[str, str] | None = None) -> dict[str, A
         headers["Authorization"] = f"Bearer {TOKEN}"
 
     request = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"GitHub API request failed with HTTP {exc.code}: {body}") from exc
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            if exc.code not in RETRYABLE_HTTP_CODES or attempt == MAX_ATTEMPTS:
+                raise RuntimeError(
+                    f"GitHub API request failed with HTTP {exc.code}: {body}"
+                ) from exc
+        except urllib.error.URLError as exc:
+            if attempt == MAX_ATTEMPTS:
+                raise RuntimeError(f"GitHub API request failed: {exc.reason}") from exc
+
+        delay = 2 ** (attempt - 1)
+        print(
+            f"warning: GitHub API request failed; retrying in {delay} second(s)",
+            file=sys.stderr,
+        )
+        time.sleep(delay)
+
+    raise AssertionError("unreachable")
 
 
 def search_count(query: str) -> int:
@@ -128,6 +147,13 @@ def update_readme(readme: str, stats_block: str) -> str:
 
 
 def main() -> int:
+    if not TOKEN:
+        print(
+            "error: GH_STATS_TOKEN is required for cross-repository contribution stats.",
+            file=sys.stderr,
+        )
+        return 2
+
     stats = collect_stats(USERNAME)
     readme = README_PATH.read_text(encoding="utf-8")
     updated_readme = update_readme(readme, render_stats(USERNAME, stats))
