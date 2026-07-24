@@ -18,8 +18,8 @@ I'm a software developer, machine learning enthusiast and an active open source 
 <table align="center">
   <tr>
     <td align="center" width="200"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
-    <td align="center" width="200"><strong>2</strong><br><sub>🟢 Open PRs</sub></td>
-    <td align="center" width="200"><strong>161</strong><br><sub>✅ Merged PRs</sub></td>
+    <td align="center" width="200"><strong>1</strong><br><sub>🟢 Open PRs</sub></td>
+    <td align="center" width="200"><strong>162</strong><br><sub>✅ Merged PRs</sub></td>
   </tr>
 </table>
 
