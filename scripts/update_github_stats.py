@@ -93,8 +93,8 @@ def metric_cell(label: str, value: int, width: int, url: str) -> str:
     value_text = html.escape(format_count(value))
     url = html.escape(url, quote=True)
     return (
-        f'    <td align="center" width="{width}"><a href="{url}">'
-        f"<strong>{value_text}</strong><br><sub>{label}</sub></a></td>"
+        f'    <td align="center" width="{width}"><strong>{value_text}</strong><br>'
+        f'<a href="{url}"><sub>{label}</sub></a></td>'
     )
 
 

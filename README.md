@@ -17,17 +17,17 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <table align="center">
   <tr>
-    <td align="center" width="200"><a href="https://github.com/search?q=reviewed-by%3Adakshhhhh16+is%3Apr&amp;type=pullrequests"><strong>53</strong><br><sub>👀 Reviewed PRs</sub></a></td>
-    <td align="center" width="200"><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Aopen&amp;type=pullrequests"><strong>5</strong><br><sub>🟢 Open PRs</sub></a></td>
-    <td align="center" width="200"><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Amerged&amp;type=pullrequests"><strong>163</strong><br><sub>✅ Merged PRs</sub></a></td>
+    <td align="center" width="200"><strong>53</strong><br><a href="https://github.com/search?q=reviewed-by%3Adakshhhhh16+is%3Apr&amp;type=pullrequests"><sub>👀 Reviewed PRs</sub></a></td>
+    <td align="center" width="200"><strong>5</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Aopen&amp;type=pullrequests"><sub>🟢 Open PRs</sub></a></td>
+    <td align="center" width="200"><strong>163</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Amerged&amp;type=pullrequests"><sub>✅ Merged PRs</sub></a></td>
   </tr>
 </table>
 
 <table align="center">
   <tr>
-    <td align="center" width="200"><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue+is%3Aopen&amp;type=issues"><strong>3</strong><br><sub>🟡 Open Issues</sub></a></td>
-    <td align="center" width="200"><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue+is%3Aclosed&amp;type=issues"><strong>14</strong><br><sub>✅ Closed Issues</sub></a></td>
-    <td align="center" width="200"><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue&amp;type=issues"><strong>17</strong><br><sub>📌 Total Issues</sub></a></td>
+    <td align="center" width="200"><strong>3</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue+is%3Aopen&amp;type=issues"><sub>🟡 Open Issues</sub></a></td>
+    <td align="center" width="200"><strong>14</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue+is%3Aclosed&amp;type=issues"><sub>✅ Closed Issues</sub></a></td>
+    <td align="center" width="200"><strong>17</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Aissue&amp;type=issues"><sub>📌 Total Issues</sub></a></td>
   </tr>
 </table>
 
