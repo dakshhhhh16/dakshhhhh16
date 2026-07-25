@@ -70,10 +70,8 @@ def search_count(query: str) -> int:
 
 
 def collect_stats(username: str) -> dict[str, int]:
-    user = request_json(f"/users/{urllib.parse.quote(username)}")
-
     return {
-        "public_repos": int(user["public_repos"]),
+        "reviewed_prs": search_count(f"reviewed-by:{username} is:pr"),
         "open_prs": search_count(f"author:{username} is:pr is:open"),
         "merged_prs": search_count(f"author:{username} is:pr is:merged"),
         "open_issues": search_count(f"author:{username} is:issue is:open"),
@@ -85,12 +83,18 @@ def format_count(value: int) -> str:
     return f"{value:,}"
 
 
-def metric_cell(label: str, value: int, width: int) -> str:
+def search_url(query: str, result_type: str) -> str:
+    params = urllib.parse.urlencode({"q": query, "type": result_type})
+    return f"https://github.com/search?{params}"
+
+
+def metric_cell(label: str, value: int, width: int, url: str) -> str:
     label = html.escape(label)
     value_text = html.escape(format_count(value))
+    url = html.escape(url, quote=True)
     return (
-        f'    <td align="center" width="{width}"><strong>{value_text}</strong><br>'
-        f"<sub>{label}</sub></td>"
+        f'    <td align="center" width="{width}"><a href="{url}">'
+        f"<strong>{value_text}</strong><br><sub>{label}</sub></a></td>"
     )
 
 
@@ -99,18 +103,55 @@ def render_stats(username: str, stats: dict[str, int]) -> str:
     profile_url = f"https://github.com/{urllib.parse.quote(username)}"
     username_html = html.escape(username)
 
+    reviewed_prs_query = f"reviewed-by:{username} is:pr"
+    open_prs_query = f"author:{username} is:pr is:open"
+    merged_prs_query = f"author:{username} is:pr is:merged"
+    open_issues_query = f"author:{username} is:issue is:open"
+    closed_issues_query = f"author:{username} is:issue is:closed"
+    total_issues_query = f"author:{username} is:issue"
+
     contribution_row = "\n".join(
         [
-            metric_cell("📦 Public Repos", stats["public_repos"], 200),
-            metric_cell("🟢 Open PRs", stats["open_prs"], 200),
-            metric_cell("✅ Merged PRs", stats["merged_prs"], 200),
+            metric_cell(
+                "👀 Reviewed PRs",
+                stats["reviewed_prs"],
+                200,
+                search_url(reviewed_prs_query, "pullrequests"),
+            ),
+            metric_cell(
+                "🟢 Open PRs",
+                stats["open_prs"],
+                200,
+                search_url(open_prs_query, "pullrequests"),
+            ),
+            metric_cell(
+                "✅ Merged PRs",
+                stats["merged_prs"],
+                200,
+                search_url(merged_prs_query, "pullrequests"),
+            ),
         ]
     )
     issue_row = "\n".join(
         [
-            metric_cell("🟡 Open Issues", stats["open_issues"], 200),
-            metric_cell("✅ Closed Issues", stats["closed_issues"], 200),
-            metric_cell("📌 Total Issues", total_issues, 200),
+            metric_cell(
+                "🟡 Open Issues",
+                stats["open_issues"],
+                200,
+                search_url(open_issues_query, "issues"),
+            ),
+            metric_cell(
+                "✅ Closed Issues",
+                stats["closed_issues"],
+                200,
+                search_url(closed_issues_query, "issues"),
+            ),
+            metric_cell(
+                "📌 Total Issues",
+                total_issues,
+                200,
+                search_url(total_issues_query, "issues"),
+            ),
         ]
     )
 
