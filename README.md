@@ -17,16 +17,16 @@ I'm a software developer, machine learning enthusiast and an active open source 
 
 <table align="center">
   <tr>
-    <td align="center" width="200"><strong>26</strong><br><sub>📦 Public Repos</sub></td>
-    <td align="center" width="200"><strong>1</strong><br><sub>🟢 Open PRs</sub></td>
-    <td align="center" width="200"><strong>162</strong><br><sub>✅ Merged PRs</sub></td>
+    <td align="center" width="200"><strong>27</strong><br><sub>📦 Public Repos</sub></td>
+    <td align="center" width="200"><strong>2</strong><br><sub>🟢 Open PRs</sub></td>
+    <td align="center" width="200"><strong>163</strong><br><sub>✅ Merged PRs</sub></td>
   </tr>
 </table>
 
 <table align="center">
   <tr>
-    <td align="center" width="200"><strong>4</strong><br><sub>🟡 Open Issues</sub></td>
-    <td align="center" width="200"><strong>13</strong><br><sub>✅ Closed Issues</sub></td>
+    <td align="center" width="200"><strong>3</strong><br><sub>🟡 Open Issues</sub></td>
+    <td align="center" width="200"><strong>14</strong><br><sub>✅ Closed Issues</sub></td>
     <td align="center" width="200"><strong>17</strong><br><sub>📌 Total Issues</sub></td>
   </tr>
 </table>
