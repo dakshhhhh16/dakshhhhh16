@@ -9,12 +9,17 @@ I'm a software developer, machine learning enthusiast and an active open source 
 <h2 align="left">GitHub Activity</h2>
 
 <!-- GITHUB-STATS:START -->
+<p align="left">
+  <a href="https://github.com/dakshhhhh16"><strong>@dakshhhhh16</strong></a>
+  <br>
+  <sub>Open source contribution snapshot, refreshed daily.</sub>
+</p>
 
 <table align="center">
   <tr>
     <td align="center" width="200"><strong>59</strong><br><a href="https://github.com/search?q=reviewed-by%3Adakshhhhh16+is%3Apr&amp;type=pullrequests"><sub>👀 Reviewed PRs</sub></a></td>
-    <td align="center" width="200"><strong>5</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Aopen&amp;type=pullrequests"><sub>🟢 Open PRs</sub></a></td>
-    <td align="center" width="200"><strong>171</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Amerged&amp;type=pullrequests"><sub>✅ Merged PRs</sub></a></td>
+    <td align="center" width="200"><strong>3</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Aopen&amp;type=pullrequests"><sub>🟢 Open PRs</sub></a></td>
+    <td align="center" width="200"><strong>173</strong><br><a href="https://github.com/search?q=author%3Adakshhhhh16+is%3Apr+is%3Amerged&amp;type=pullrequests"><sub>✅ Merged PRs</sub></a></td>
   </tr>
 </table>
 
